@@ -1,13 +1,20 @@
+//Metodo find array - Pesquisar
 
+const numbers = [ 10, 8, 7, 2, 98, 20]
+const find = numbers.find((number) => {
+    return number === 98
+})
 
-Spread objeto
+console.log(find);
 
-const info = { nome: 'Breno', age: 28 }
-const infoAdc = { lastname: 'Silva' }
+//Spread objeto
 
-const pessoa = {...info, ...infoAdc}
+//const info = { nome: 'Breno', age: 28 }
+//const infoAdc = { lastname: 'Silva' }
 
-console.log(pessoa);
+//const pessoa = {...info, ...infoAdc}
+
+//console.log(pessoa);
 
 //spread operator(...) - Junção de arrays
 //const array1 = [4, 8, 41, 2]
